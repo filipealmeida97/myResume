@@ -7,13 +7,21 @@ export default function TechnicalMetrics() {
 		<section className="py-20 px-4 bg-gray-900/50">
 			<div className="max-w-6xl mx-auto">
 				<motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
-					Impact & Achievements
+					Experiência
 				</motion.h2>
 
 				<div className="grid grid-cols-1 gap-12">
 					{/* System Performance */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">System Performance</h3>
+						<div className='grid  grid-cols-2'>
+							<div className='flex flex-col justify-start'>
+								<h3 className="text-xl font-semibold mb-1 text-yellow-400">Leve Saúde</h3>
+								<p className="text-lg font-light italic mb-6 text-yellow-400">Estagiário</p>
+							</div>
+							<div className='flex justify-end'>
+								<p className='text-sm text-yellow-400 italic'>(2022-2023)</p>
+							</div>
+						</div>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -46,7 +54,15 @@ export default function TechnicalMetrics() {
 
 					{/* Infrastructure & DevOps */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps</h3>
+						<div className='grid  grid-cols-2'>
+							<div className='flex flex-col justify-start'>
+								<h3 className="text-xl font-semibold mb-1 text-yellow-400">CREART</h3>
+								<p className="text-lg font-light italic mb-6 text-yellow-400">Professor de Informática</p>
+							</div>
+							<div className='flex justify-end'>
+								<p className='text-sm text-yellow-400 italic'>(2018-2019)</p>
+							</div>
+						</div>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}
@@ -79,7 +95,15 @@ export default function TechnicalMetrics() {
 
 					{/* Development & Leadership */}
 					<div>
-						<h3 className="text-xl font-semibold mb-6 text-green-400">Development & Leadership</h3>
+						<div className='grid  grid-cols-2'>
+							<div className='flex flex-col justify-start'>
+								<h3 className="text-xl font-semibold mb-1 text-yellow-400">Hospital Vitória</h3>
+								<p className="text-lg font-light italic mb-6 text-yellow-400">Jovem Aprendiz</p>
+							</div>
+							<div className='flex justify-end'>
+								<p className='text-sm text-yellow-400 italic'>(2017-2017)</p>
+							</div>
+						</div>
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 							<motion.div
 								initial={{ opacity: 0, scale: 0.95 }}

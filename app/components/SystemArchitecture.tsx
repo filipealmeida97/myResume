@@ -50,7 +50,7 @@ export default function SystemArchitecture() {
 							<h3 className="text-2xl font-bold mb-4">{project.title}</h3>
 							<p className="text-gray-400 mb-6">{project.description}</p>
 							<div className="mb-6">
-								<h4 className="text-lg font-semibold mb-2">Key Achievements:</h4>
+								<h4 className="text-lg font-semibold mb-2">Principais realizações:</h4>
 								<ul className="list-disc list-inside space-y-2 text-gray-300">
 									{project.details.map((detail, i) => (
 										<li key={i}>{detail}</li>
