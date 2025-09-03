@@ -13,6 +13,41 @@ export default function SystemArchitecture() {
 				<div className="grid grid-cols-1 gap-8">
 					{[
 						{
+							title: 'Portal do Investidor',
+							description: 'Sistema web para acompanhamento de investimentos, permitindo que investidores visualizem spreads, posições, extratos detalhados e validem transações em blockchain em tempo real.',
+							details: [
+								'Conteinerização completa com Docker para padronização do ambiente de desenvolvimento e produção',
+								'Back-end desenvolvido em Django (Python), utilizando Django Allauth para autenticação e autorização seguras',
+								'Integração com APIs financeiras para recuperação de dados de investimentos e acompanhamento em tempo real (pós homologação financeira)',
+								'Validação de transações na blockchain Ethereum',
+								'Design responsivo e mobile-first utilizando Bootstrap 5',
+								'Frontend interativo com HTML5, CSS3, JavaScript e jQuery para manipulação dinâmica de dados e tabelas',
+								'Pipeline de CI/CD configurado no GitHub Actions, realizando build, testes e deploy automatizado na AWS',
+								'Implantação na AWS com ECR (repositório de imagens Docker) e App Runner (execução e autoscaling)',
+								'Banco de dados MySQL gerenciado em AWS RDS, para alta disponibilidade',
+								'Configuração de monitoramento de deploy via Webhook com o AWS EventBridge e gestão de segredos com AWS Secrets Manager',
+								'Geração de spread em PDF e exportação de extratos financeiros',
+								'Maior transparência e confiança para os investidores, resultando em aumento significativo da base de investimentos'
+							],
+							tech: [
+								'Docker',
+								'Python',
+								'Django',
+								'Django Allauth',
+								'MySQL',
+								'Bootstrap 5',
+								'HTML5 & CSS3',
+								'JavaScript & jQuery',
+								'AWS ECR',
+								'AWS App Runner',
+								'AWS RDS',
+								'AWS EventBridge',
+								'AWS Secrets Manager',
+								'GitHub Actions'
+							],
+						},
+
+						{
 							title: 'Boletador',
 							description: 'Sistema que automatiza o processo de vendas de ativos, gerando contratos e iniciando transações com clientes.',
 							details: [
