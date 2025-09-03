@@ -16,7 +16,7 @@ export default function TechnicalMetrics() {
 						<div className='grid  grid-cols-2'>
 							<div className='flex flex-col justify-start'>
 								<h3 className="text-xl font-semibold mb-1 text-yellow-400">Droom Investimentos</h3>
-								<p className="text-lg font-light italic mb-6 text-yellow-400">Desenvolvedor Jr</p>
+								<p className="text-lg font-light italic mb-6 text-yellow-400">Desenvolvedor Pleno</p>
 							</div>
 							<div className='flex justify-end'>
 								<p className='text-sm text-yellow-400 italic'>(2023-Atualmente)</p>

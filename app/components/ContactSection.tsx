@@ -37,7 +37,7 @@ export default function ContactSection() {
 							</div>
 							<p className="text-green-500 mt-8 mb-2">$ contact --email</p>
 							<motion.a
-								href="mailto:alex.chen@example.com"
+								href="mailto:filip.goal@gmail.com"
 								whileHover={{ scale: 1.02 }}
 								className="inline-block px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
 							>
@@ -45,7 +45,7 @@ export default function ContactSection() {
 							</motion.a>
 							<p className="text-green-500 mt-8 mb-2">$ cat resume.pdf</p>
 							<motion.a
-								href="/path-to-resume.pdf"
+								href="/curriculo_filipe.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								whileHover={{ scale: 1.02 }}
@@ -74,7 +74,7 @@ export default function ContactSection() {
 									</div>
 								</motion.a>
 								<motion.a
-									href="#"
+									href="https://www.linkedin.com/in/filipe-almeida-363b1a10b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
 								>
