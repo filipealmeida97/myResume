@@ -35,6 +35,7 @@ export default function HeroSection() {
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">CSS3</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">JQuery</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Bootstrap</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">React/Next.js</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Tailwind</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
