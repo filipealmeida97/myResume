@@ -33,19 +33,19 @@ export const metadata: Metadata = {
 		'System Design',
 		'Backend Architecture',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Filipe Almeida' }],
+	creator: 'Filipe Almeida',
 	openGraph: {
-		title: '[Your Name] - Backend Developer Portfolio',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
+		title: 'Filipe Almeida - Fullstack Developer Portfolio',
+		description: 'Passionate Fullstack developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
 		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		siteName: 'Filipe Almeida - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Backend Developer Portfolio',
+				alt: 'Filipe Almeida - Fullstack Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Backend Developer',
-		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
-		creator: '@yourusername',
+		title: 'Filipe Almeida - Fullstack Developer',
+		description: 'Passionate Fullstack developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
+		creator: '@filipealmeida',
 		images: ['/og-image.jpg'],
 	},
 	robots: {

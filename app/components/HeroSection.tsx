@@ -25,10 +25,11 @@ export default function HeroSection() {
 					<div className="font-mono">
 						<p className="text-green-500">$ whoami</p>
 						<h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Filipe Almeida</h1>
-						<p className="text-gray-400 mb-2">Pleno Fullstack Dev</p>
+						<p className="text-gray-400 mb-2">Senior Fullstack Dev</p>
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">JS</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">TS</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Python & Django</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">PHP</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">HTML</span>
