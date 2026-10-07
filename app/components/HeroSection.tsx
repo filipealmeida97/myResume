@@ -2,6 +2,29 @@
 
 import { motion } from 'framer-motion';
 
+const skillGroups = [
+	{
+		label: 'Back-end',
+		skills: ['Python', 'Django', 'Django REST Framework', 'JWT', 'Swagger', 'Pytest', 'Node.js'],
+	},
+	{
+		label: 'Front-end',
+		skills: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Zustand', 'Zod', 'jQuery', 'Bootstrap', 'Acessibilidade (VLibras)'],
+	},
+	{
+		label: 'Banco de dados',
+		skills: ['PostgreSQL', 'MySQL', 'MariaDB', 'pgloader'],
+	},
+	{
+		label: 'Cloud e DevOps',
+		skills: ['AWS (ECS, App Runner, ECR, RDS, VPC, Secrets Manager, Lambda, S3, EventBridge, Route 53, IAM)', 'Terraform', 'Docker', 'GitHub Actions', 'NGINX', 'Gunicorn'],
+	},
+	{
+		label: 'Segurança e integrações',
+		skills: ['CrowdSec (IPS)', 'Resposta a incidentes', 'Zoho CRM', 'Webhooks', 'APIs para apps React Native'],
+	},
+];
+
 export default function HeroSection() {
 	return (
 		<section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -25,22 +48,19 @@ export default function HeroSection() {
 					<div className="font-mono">
 						<p className="text-green-500">$ whoami</p>
 						<h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Filipe Almeida</h1>
-						<p className="text-gray-400 mb-2">Senior Fullstack Dev</p>
-						<p className="text-green-500">$ skills</p>
-						<div className="flex flex-wrap gap-2 mt-2">
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">JS</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">TS</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Python & Django</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">PHP</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">HTML</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">CSS3</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">JQuery</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Bootstrap</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">React/Next.js</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Tailwind</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">GitHub</span>
+						<p className="text-gray-400 mb-2">Fullstack Dev</p>
+						<p className="text-green-500">$ skills --all</p>
+						<div className="mt-2 space-y-3">
+							{skillGroups.map((group) => (
+								<div key={group.label}>
+									<p className="text-gray-500 text-sm mb-1"># {group.label}</p>
+									<div className="flex flex-wrap gap-2">
+										{group.skills.map((skill) => (
+											<span key={skill} className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">{skill}</span>
+										))}
+									</div>
+								</div>
+							))}
 						</div>
 					</div>
 				</motion.div>

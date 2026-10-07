@@ -74,7 +74,7 @@ export default function ContactSection() {
 									</div>
 								</motion.a>
 								<motion.a
-									href="https://www.linkedin.com/in/filipe-almeida-363b1a10b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+									href="https://www.linkedin.com/in/filipe-almeida-developer"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
 								>

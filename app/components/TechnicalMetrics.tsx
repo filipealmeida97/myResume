@@ -113,6 +113,81 @@ export default function TechnicalMetrics() {
             </div>
           </div>
 
+          {/* Develpross */}
+          <div>
+            <div className="grid  grid-cols-2">
+              <div className="flex flex-col justify-start">
+                <h3 className="text-xl font-semibold mb-1 text-yellow-400">
+                  <a
+                    href="https://develpross.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Develpross
+                  </a>
+                </h3>
+                <p className="text-lg font-light italic mb-6 text-yellow-400">
+                  Co-Founder & Developer
+                </p>
+              </div>
+              <div className="flex justify-end">
+                <p className="text-sm text-yellow-400 italic">
+                  (2017-Atualmente)
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+              >
+                <h4 className="text-lg font-semibold text-gray-300">
+                  Cofundador de consultoria de desenvolvimento web, responsável
+                  pela parte técnica: arquitetura, desenvolvimento e
+                  infraestrutura dos projetos de clientes.
+                </h4>
+
+                <ul className="mt-2 space-y-2 text-gray-400">
+                  <li className="italic">
+                    <span className="not-italic">
+                      • Sistemas Web sob Medida:{" "}
+                    </span>
+                    Desenvolvimento de sistemas web com back-end em
+                    Python/Django e front-end em React/Next.js.
+                  </li>
+
+                  <li className="italic">
+                    <span className="not-italic">
+                      • Sites Institucionais e Landing Pages:{" "}
+                    </span>
+                    Criação de sites e landing pages com foco em performance,
+                    SEO e acessibilidade.
+                  </li>
+
+                  <li className="italic">
+                    <span className="not-italic">
+                      • Infraestrutura em Nuvem:{" "}
+                    </span>
+                    Provisionamento e manutenção de infraestrutura (AWS,
+                    Docker, Terraform), além de gestão de domínios, DNS e
+                    e-mail corporativo.
+                  </li>
+
+                  <li className="italic">
+                    <span className="not-italic">
+                      • Relacionamento com Clientes:{" "}
+                    </span>
+                    Levantamento de requisitos, propostas técnicas e
+                    acompanhamento dos projetos junto aos clientes.
+                  </li>
+                </ul>
+              </motion.div>
+            </div>
+          </div>
+
           {/* Leve Saúde */}
           <div>
             <div className="grid  grid-cols-2">
@@ -245,61 +320,7 @@ export default function TechnicalMetrics() {
               </motion.div>
             </div>
           </div>
-
-          {/* Hospital Vitória */}
-          <div>
-            <div className="grid  grid-cols-2">
-              <div className="flex flex-col justify-start">
-                <h3 className="text-xl font-semibold mb-1 text-yellow-400">
-                  Hospital Vitória
-                </h3>
-                <p className="text-lg font-light italic mb-6 text-yellow-400">
-                  Jovem Aprendiz
-                </p>
-              </div>
-              <div className="flex justify-end">
-                <p className="text-sm text-yellow-400 italic">(2017-2017)</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
-              >
-                <h4 className="text-lg font-semibold text-gray-300">
-                  Aprendizado e qualificação para o mercado de trabalho.
-                </h4>
-                <ul className="mt-2 space-y-2 text-gray-400">
-                  <li className="italic ">
-                    <span className="not-italic">• Apoio Administrativo:</span>{" "}
-                    Auxílio em recepção, atendimento telefônico e tirar dúvidas.
-                  </li>
-                  <li className="italic ">
-                    <span className="not-italic">• Apoio Operacional:</span>{" "}
-                    Organização de documentos, digitalização, arquivamento,
-                    preenchimento de planilhas (Excel), conferência de dados.
-                  </li>
-                  <li className="italic ">
-                    <span className="not-italic">
-                      • Aprendizagem de Processos:
-                    </span>{" "}
-                    Participação em treinamentos, absorção de rotinas do setor e
-                    desenvolvimento profissional.
-                  </li>
-                  <li className="italic ">
-                    <span className="not-italic">
-                      • Colaboração em projetos simples:
-                    </span>{" "}
-                    Auxílio na montagem de apresentações, organização de eventos
-                    internos, suporte em pequenas demandas do time
-                    administrativo.
-                  </li>
-                </ul>
-              </motion.div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
